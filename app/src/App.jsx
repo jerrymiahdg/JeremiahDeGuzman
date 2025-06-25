@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <div className="w-full flex justify-center">
-        <div className="w-full max-w-3xl font-inika">
+        <div className="w-full max-w-3xl text-lg font-inika">
           <Nav />
           <Routes>
             <Route path="/" element={<Home />} />
